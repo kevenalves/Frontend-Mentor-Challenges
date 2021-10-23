@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+/* font-family: 'Lexend Deca', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+/* font-family: 'Big Shoulders Display', cursive; */
+
+:root{
+    --orange: hsl(31, 77%, 52%);
+    --cyan: hsl(184, 100%, 22%);
+    --darkCyan: hsl(179, 100%, 13%);
+    --font: papayawhip;
+}
+
+*{
+    margin: 0; padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+main .container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    color: var(--font);
+}
+
+main .container .card{
+    height: 420px;
+    width: 300px;
+}
+
+main .container .box1{
+    background: var(--orange);
+    border-radius: 5px 0 0 5px;
+}
+
+main .container .box2{
+    background: var(--cyan);
+}
+
+main .container .box3{
+    background: var(--darkCyan);
+    border-radius: 0 5px 5px 0;
+}
+
+main .container .card .wrapper{
+    margin: 40px;
+}
+
+main .container .card .wrapper img{
+    margin-bottom: 30px;
+}
+
+main .container .card .wrapper h1{
+   font-family: 'Big Shoulders Display', cursive;
+    margin-bottom: 30px;
+}
+
+main .container .card .wrapper p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 60px;
+}
+
+main .container .card .wrapper a{
+    border: 2px solid var(--font);
+    background-color: var(--font);
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+main .container .card .wrapper .btn1{
+    color: var(--orange);
+}
+
+main .container .card .wrapper .btn2{
+    color: var(--cyan);
+}
+
+main .container .card .wrapper .btn3{
+    color: var(--darkCyan);
+}
+
+main .container .card .wrapper a:hover{
+    color: var(--font);
+    border: 2px solid var(--font);
+}
+
+main .container .card .wrapper .btn1:hover{
+    background-color: var(--orange);
+}
+
+main .container .card .wrapper .btn2:hover{
+    background-color: var(--cyan);
+}
+
+main .container .card .wrapper .btn3:hover{
+    background-color: var(--darkCyan);
+}
+
+
+
+/* Mobile  */
+@media screen and (max-width: 1000px){
+    main .container{
+        flex-direction: column;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        align-items: center;
+    }
+
+    main .container .box1{
+        border-radius: 5px 5px 0 0;
+    }
+    
+    main .container .box3{
+        border-radius: 0 0 5px 5px;
+    }
+}
