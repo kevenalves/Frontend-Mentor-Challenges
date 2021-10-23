@@ -6,6 +6,7 @@
 
 ## 🚀 Descrição
 Projeto resolvido usando técnicas de flexbox.
+Veja o projeto de forma interativa: [VISITE](https://3column-kev.netlify.app/)
 
 ## 🖥️ preview final do projeto
 
