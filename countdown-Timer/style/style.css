@@ -18,6 +18,11 @@ border: 0; box-sizing: border-box;
 text-decoration: none;
 }
 
+body{
+    background: url(./images/bg-stars.svg) hsl(240, 18%, 12%);
+    height: 100vh;
+    }
+
 main{
     display: flex;
     height: 100vh;
@@ -25,13 +30,6 @@ main{
     justify-content: center;
     color: var(--White);
     font-family: 'Red Hat Text', sans-serif;
-    background: linear-gradient( var(--DarkBlue), var(--DarkDesaturatedBlue));
-}
-
-main .star{
-    position: absolute;
-    width: 100vw;
-    height: 55vh;
 }
 
 main .montain{
@@ -97,24 +95,21 @@ main .container .text{
     display: flex;
     width: 800px;
     justify-content: space-around;
-    margin-bottom: 370px;
 }
 
 main .container .text p{
     color: var(--GrayishBlue);
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 6px;
     width: 150px;
     text-align: center;
     font-size: 14px;
 }
 
 main .container .socialMedia{
-    width: 800px;
-    display: flex;
-    justify-content: center;
-    position: relative;
-}
+    position: absolute;
+    bottom: 56px;  
+    }
 
 main .container .socialMedia svg{
     margin: 20px;
@@ -172,17 +167,13 @@ main .container .socialMedia svg:hover{
         width: 88px;
         font-size: 12px;
     }
-    
-    main .container .socialMedia{
-        width: 450px;
-    }
 }
 
 
-@media screen and (max-width: 376px){
+@media screen and (max-width: 500px){
 
     main .container{
-        margin-top: 100px;
+        margin-top: 130px;
     } 
 
     main .container .boxDate{
@@ -210,7 +201,6 @@ main .container .socialMedia svg:hover{
     
     main .container .text{
         width: 350px;
-        margin-bottom: 250px;
     }
 
     main .container .text p{
@@ -218,8 +208,41 @@ main .container .socialMedia svg:hover{
         width: 60px;
         font-size: 10px;
     }
+}
+
+
+@media screen and (max-width: 330px){
+
+
+    main .container .boxDate{
+        width: 260px
+    }
+
+    main .container .boxDate .date{
+        height: 50px;
+        width: 50px;
+    }
+
+    main .container .boxDate .date p{
+        font-size: 18px;
+    }
     
-    main .container .socialMedia{
-        width: 350px;
+    main .container .boxDate .date .color1{
+        padding-right: 50px;
+        padding-top: 25px;
+    }
+    
+    main .container .boxDate .date .color2{
+        padding-right: 50px;
+        padding-top: 25px;
+    }
+    
+    main .container .text{
+        width: 250px;
+    }
+
+    main .container .text p{
+        width: 40px;
+        font-size: 8px;
     }
 }
