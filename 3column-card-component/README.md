@@ -5,7 +5,7 @@
 </p>
 
 ## 🚀 Descrição
-Projeto resolvido usando técnicas de flexbox.
+Projeto resolvido usando técnicas de flexbox.<br>
 Veja o projeto de forma interativa: [VISITE](https://3column-kev.netlify.app/)
 
 ## 🖥️ preview final do projeto
