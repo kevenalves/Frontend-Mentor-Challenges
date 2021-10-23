@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap');
+/* font-family: 'Red Hat Text', sans-serif; */
+
+:root{
+    /* Primary */
+    --GrayishBlue: hsl(237, 18%, 59%);
+    --SoftRed: hsl(345, 95%, 68%);
+    /* Neutral */
+    --White: hsl(0, 0%, 100%);
+    --DarkDesaturatedBlue: hsl(236, 21%, 26%);
+    --DarkBlue: hsl(235, 16%, 14%);
+    --VeryDarkBlue: hsl(234, 17%, 12%);
+}
+
+*{
+margin: 0; padding: 0;
+border: 0; box-sizing: border-box;
+text-decoration: none;
+}
+
+main{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    color: var(--White);
+    font-family: 'Red Hat Text', sans-serif;
+    background: linear-gradient( var(--DarkBlue), var(--DarkDesaturatedBlue));
+}
+
+main .star{
+    position: absolute;
+    width: 100vw;
+    height: 55vh;
+}
+
+main .montain{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 200px;
+}
+
+main .container{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .container h1{
+    text-align: center;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-size: 22px;
+}
+
+main .container .boxDate{
+    display: flex;
+    width: 800px;
+    justify-content: space-around;
+}
+
+main .container .boxDate .date{
+    height: 150px;
+    width: 150px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 1px 15px 10px var(--VeryDarkBlue);
+}
+
+main .container .boxDate .date p{
+    position: absolute;
+    align-self: center;
+    color: var(--SoftRed);
+    font-size: 62px;
+}
+
+main .container .boxDate .date .color1{
+    background: hsla(236, 21%, 26%, 0.589);
+    padding-right: 150px;
+    padding-top: 75px;
+    border-radius: 5px 5px 0 0;
+}
+
+main .container .boxDate .date .color2{
+    background: var(--DarkDesaturatedBlue);
+    padding-right: 150px;
+    padding-top: 75px;
+    border-radius: 0 0 5px 5px;
+}
+
+main .container .text{
+    display: flex;
+    width: 800px;
+    justify-content: space-around;
+    margin-bottom: 370px;
+}
+
+main .container .text p{
+    color: var(--GrayishBlue);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 150px;
+    text-align: center;
+    font-size: 14px;
+}
+
+main .container .socialMedia{
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+main .container .socialMedia svg{
+    margin: 20px;
+    cursor: pointer;
+    fill:#8385A9;
+}
+
+main .container .socialMedia svg:hover{
+    fill:hsl(345, 95%, 68%);
+}
+
+
+
+/* MOBILE  */
+
+@media screen and (max-width: 800px){
+    
+    main .container{
+        margin-top: 200px;
+    } 
+    
+    main .container h1{
+        margin-bottom: 80px;
+    }
+
+    main .container .boxDate{
+        width: 450px
+    }
+
+    main .container .boxDate .date{
+        height: 88px;
+        width: 88px;
+    }
+
+    main .container .boxDate .date p{
+        font-size: 36px;
+    }
+    
+    main .container .boxDate .date .color1{
+        padding-right: 88px;
+        padding-top: 44px;
+    }
+    
+    main .container .boxDate .date .color2{
+        padding-right: 88px;
+        padding-top: 44px;
+    }
+    
+    main .container .text{
+        width: 450px;
+    }
+
+    main .container .text p{
+        letter-spacing: 2px;
+        width: 88px;
+        font-size: 12px;
+    }
+    
+    main .container .socialMedia{
+        width: 450px;
+    }
+}
+
+
+@media screen and (max-width: 376px){
+
+    main .container{
+        margin-top: 100px;
+    } 
+
+    main .container .boxDate{
+        width: 350px
+    }
+
+    main .container .boxDate .date{
+        height: 60px;
+        width: 60px;
+    }
+
+    main .container .boxDate .date p{
+        font-size: 24px;
+    }
+    
+    main .container .boxDate .date .color1{
+        padding-right: 60px;
+        padding-top: 30px;
+    }
+    
+    main .container .boxDate .date .color2{
+        padding-right: 60px;
+        padding-top: 30px;
+    }
+    
+    main .container .text{
+        width: 350px;
+        margin-bottom: 250px;
+    }
+
+    main .container .text p{
+        letter-spacing: 1.5px;
+        width: 60px;
+        font-size: 10px;
+    }
+    
+    main .container .socialMedia{
+        width: 350px;
+    }
+}
