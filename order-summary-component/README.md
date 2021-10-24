@@ -11,7 +11,7 @@ Veja o projeto de forma interativa: [VISITE](https://order-summary-kev.netlify.a
 ## 🖥️ preview final do projeto
 
 <p align="center">
-  <img src="images/desktop.png" width="1307" height="946"/>
+  <img src="images/desktop.png" width="1307" height="736"/>
 </p>
 
 ## 📳 preview final do projeto mobile
