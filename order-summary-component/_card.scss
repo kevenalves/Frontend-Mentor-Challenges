@@ -1,0 +1,110 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+@mixin centralizar {
+    display: flex;
+    align-items: center;
+    
+}
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    background: url(./images/pattern-background-desktop.svg) no-repeat;
+    background-size: 100% 50%;
+}
+
+body main{
+    @include centralizar;
+    height: 100vh;
+}
+
+body main .container{
+    @include centralizar();
+    margin: auto;
+    flex-direction: column;
+    height: 600px;
+    width: 350px;
+    background: hsl(225, 100%, 94%);
+    box-shadow: 1px 1px 6px black;
+    border-radius: 10px;
+
+    .imagem{
+        width: 350px;
+        height: 200px;
+        margin-bottom: 30px;
+
+        img{
+            width: 100%;
+            height: 100%;
+            border-radius: 10px 10px 0 0;
+        }
+    }
+}
+
+body main .container h1{
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+body main .container p{
+    text-align: center;
+    color: rgb(117, 112, 112);
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+body main .container .price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 76px;
+    margin-bottom: 30px;
+
+    img{
+        box-shadow: 1px 1px 2px rgb(131, 131, 131);
+        border-radius: 50%;
+    }
+
+    div{
+       margin-left: 15px;
+       margin-top: 15px;
+    }
+
+    a{
+        margin-left: 50px;
+        align-self: center;
+        color: hsl(245, 94%, 31%);
+    }
+}
+
+body main .container{
+    .btn{
+        width: 80%;
+        height: 50px;
+        background: hsl(245, 75%, 52%);
+        color: white;
+        text-align: center;
+        padding-top: 13px;
+        border-radius: 10px;
+        text-decoration: none;
+        margin-bottom: 20px;
+
+        &:hover{
+            background: hsla(245, 75%, 52%, 0.747);
+            color: white;
+        }
+    }
+
+    a{
+        text-decoration: none;
+        color: rgb(82, 82, 82);
+
+        &:hover{
+            color: rgb(48, 47, 47);
+            transition: 0.6s;
+        }
+    }
+}
