@@ -11,4 +11,4 @@ Repositório criado com o objetivo de compartilhar todos as soluções que desen
   - [3-column card component](https://github.com/kevenalves/Frontend-Mentor-Challenges/tree/main/3column-card-component) - HTML, CSS-Flexbox
   - [Countdown Timer](https://github.com/kevenalves/Frontend-Mentor-Challenges/tree/main/countdown-Timer) - HTML, CSS, JS
   - [Stats Card Component](https://github.com/kevenalves/Frontend-Mentor-Challenges/tree/main/stats-card-component) - HTML, CSS-Flexbox
-   - [Order Summary Card]() - HTML, SasS CSS
+   - [Order Summary Card](https://github.com/kevenalves/Frontend-Mentor-Challenges/tree/main/order-summary-component) - HTML, SasS CSS

@@ -1,4 +1,4 @@
-# Frontend Mentor - Stats Card Component
+# Frontend Mentor - Order Summary Card
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/kevenalves/Frontend-Mentor-Challenges/main/frontend-mentor-logo.png" width="150" height="150"/>
