@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Lexend+Deca&display=swap');
+/* font-family: 'Inter', sans-serif; */
+/* font-family: 'Lexend Deca', sans-serif; */
+
+
+*{
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: hsl(233, 47%, 7%);
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+body main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body main .container{
+    max-width: 1200px;
+    max-height: 400px;
+    background: hsl(244, 38%, 16%);
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 10px;
+}
+
+body main .container .imagem{
+    width: 50%;
+    height: 400px;
+    background: hsl(276, 91%, 34%);
+    border-radius: 0 10px 10px 0;
+}
+
+
+body main .container .imagem p{
+background: url(./images/image-header-desktop.jpg);
+width: 100%;
+height: 100%;
+filter: opacity(50%);
+border-radius: 0 10px 10px 0;
+}
+
+body main .container .card{
+    width: 50%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+body main .container .card h1{
+    color: hsl(0, 0%, 100%);
+    width: 80%;
+    margin-bottom: 30px;
+    font-family: 'Inter', sans-serif;
+}
+
+body main .container .card h1 span{
+    color:hsl(277, 64%, 61%);
+}
+
+body main .container .card p{
+    width: 80%;
+    margin-bottom: 50px;
+    font-size: 15px;
+}
+
+body main .container .card .stats{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+body main .container .card .stats div h2{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+}
+
+body main .container .card .stats div p{
+    text-transform: uppercase;
+}
+
+
+
+
+/* ====== MOBILE ======  */
+
+@media screen and (max-width: 700px){
+
+    body main{
+        height: 100%;
+    }
+    
+    body main .container{
+        max-width: 320px;
+        max-height: 1200px;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    body main .container .imagem{
+        width: 100%;
+        height: 257px;
+        border-radius: 10px 10px 0 0;
+    }
+    
+    
+    body main .container .imagem p{
+    background: url(./images/image-header-mobile2.jpg) no-repeat;
+    border-radius: 10px 10px 0 0;
+    height: 257px;
+    width: 100%;
+    }
+    
+    body main .container .card{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        margin-top: 40px;
+        text-align: center;
+    }
+    
+    body main .container .card h1{
+        width: 90%;
+        font-size: 28px;
+ 
+    }
+    
+    body main .container .card p{
+        font-size: 14px;
+        line-height: 1.8;
+    }
+    
+    body main .container .card .stats{
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+        align-items: center;
+    }
+
+    body main .container .card .stats div{
+        height: 90px;
+    }
+
+    body main .container .card .stats div h2{
+        margin-bottom: 5px;
+    }
+
+}

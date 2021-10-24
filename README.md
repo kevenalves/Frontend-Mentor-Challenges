@@ -10,3 +10,4 @@ Repositório criado com o objetivo de compartilhar todos as soluções que desen
 ## 📚 Desafios resolvidos até agora:
   - [3-column card component](https://github.com/kevenalves/Frontend-Mentor-Challenges/tree/main/3column-card-component) - HTML, CSS-Flexbox
   - [Countdown Timer](https://github.com/kevenalves/Frontend-Mentor-Challenges/tree/main/countdown-Timer) - HTML, CSS, JS
+  - [Stats Card Component]() - HTML, CSS-Flexbox
