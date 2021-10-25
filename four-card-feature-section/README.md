@@ -11,7 +11,7 @@ Veja o projeto de forma interativa: [VISITE](https://four-card-kev.netlify.app/)
 ## 🖥️ preview final do projeto
 
 <p align="center">
-  <img src="images/desktop.png" width="1848" height="1076"/>
+  <img src="images/desktop.png" width="1012" height="589"/>
 </p>
 
 ## 📳 preview final do projeto mobile
