@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main {
+  height: 100%;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+main h2 {
+  color: #a3a5ae;
+  margin-top: 70px;
+  font-size: 38px;
+  font-weight: 200;
+}
+
+main h1 {
+  color: #4c4e61;
+  margin-bottom: 30px;
+  font-size: 42px;
+}
+
+main .description {
+  width: 600px;
+  margin: auto;
+  font-size: 15px;
+  color: #a3a5ae;
+  margin-bottom: 70px;
+}
+
+main .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 100px;
+  margin-left: 80px;
+}
+
+main .card div {
+  margin-right: 60px;
+  width: 400px;
+  height: 300px;
+  color: #fafafa;
+  -webkit-box-shadow: 10px 5px 5px #cacaca;
+          box-shadow: 10px 5px 5px #cacaca;
+  border-radius: 3px 3px 10px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .card div h3 {
+  color: #4c4e61;
+  text-align: left;
+  margin: 20px 40px 0 40px;
+}
+
+main .card div p {
+  font-size: 15px;
+  color: #a3a5ae;
+  text-align: left;
+  margin: 20px 40px 0 40px;
+}
+
+main .card div img {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-right: 20px;
+  margin-top: 25%;
+}
+
+main .card .supervisor {
+  border-top: solid 5px #45d3d3;
+  margin-top: 50px;
+}
+
+main .card .builder {
+  border-top: solid 5px #ea5353;
+  margin-bottom: 40px;
+}
+
+main .card .karma {
+  border-top: solid 5px #fcaf4a;
+}
+
+main .card .calculator {
+  border-top: solid 5px #549ef2;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 1200px) {
+  main h2 {
+    font-size: 26px;
+  }
+  main h1 {
+    font-size: 28px;
+  }
+  main .description {
+    width: 320px;
+    margin-bottom: 30px;
+  }
+  main .card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 0;
+  }
+  main .card div {
+    width: 330px;
+    height: 300px;
+    margin-right: 0;
+  }
+  main .card div p {
+    margin: 20px 20px 0 40px;
+  }
+  main .card .supervisor {
+    margin-bottom: 40px;
+  }
+  main .card .karma {
+    margin-bottom: 40px;
+  }
+  main .card .calculator {
+    margin-top: 0px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

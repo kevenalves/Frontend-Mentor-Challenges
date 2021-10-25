@@ -1,0 +1,107 @@
+// font-family: 'Poppins', sans-serif;
+
+$color1: hsl(0, 78%, 62%);
+$color2: hsl(180, 62%, 55%);
+$color3: hsl(34, 97%, 64%);
+$color4: hsl(212, 86%, 64%);
+
+$color5: hsl(234, 12%, 34%);
+$color6: hsl(229, 6%, 66%);
+$color7: hsl(0, 0%, 98%);
+
+@function colorBorder($colorB){
+  @return solid 5px $colorB;
+}
+
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+    h2{
+        color: $color6;
+        margin-top: 70px;
+        font-size: 38px;
+        font-weight: 200;
+    }
+
+    h1{
+        color: $color5;
+        margin-bottom: 30px;
+        font-size: 42px;
+    }
+
+    .description{
+        width: 600px;    
+        margin: auto;
+        font-size: 15px;
+        color: $color6;
+        margin-bottom: 70px;
+    }
+}
+
+main .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-left: 80px;
+    
+    div{
+
+        margin-right: 60px;
+        width: 400px;
+        height: 300px;
+        color: $color7;
+        box-shadow: 10px 5px 5px rgb(202, 202, 202);
+        border-radius: 3px 3px 10px 10px;
+        display: flex;
+        flex-direction: column;
+
+        h3{
+            color: $color5;
+            text-align: left;
+            margin: 20px 40px 0 40px;
+        }
+        
+        p{
+            font-size: 15px;
+            color: $color6;
+            text-align: left;
+            margin: 20px 40px 0 40px;
+        }
+
+        img{
+            align-self: flex-end;
+            margin-right: 20px;
+            margin-top: 25%;
+        }
+    }
+
+    .supervisor{
+        border-top: colorBorder($color2);
+        margin-top: 50px;
+    }
+
+    .builder{
+        border-top: colorBorder($color1);
+        margin-bottom: 40px;
+    }
+
+    .karma{
+        border-top: colorBorder($color3);
+    }
+
+    .calculator{
+        border-top: colorBorder($color4);
+        margin-top: 50px;
+    }
+}

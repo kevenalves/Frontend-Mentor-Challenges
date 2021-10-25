@@ -1,0 +1,49 @@
+@media screen and (max-width: 1200px){
+    
+    main{
+    
+        h2{
+            font-size: 26px;
+        }
+
+        h1{
+            font-size: 28px;
+        }
+
+        .description{
+            width: 320px;
+            margin-bottom: 30px;
+        }
+    
+    }
+
+    main .card{
+        flex-direction: column;
+        margin-left: 0;
+
+        div{
+            width: 330px;
+            height: 300px;
+            margin-right: 0;
+
+            p{
+                margin: 20px 20px 0 40px;
+            }
+
+        }
+
+        .supervisor{
+            margin-bottom: 40px;
+        }
+    
+        .karma{
+            margin-bottom: 40px;
+        }
+    
+        .calculator{
+            margin-top: 0px;
+        }
+
+    }
+
+}
