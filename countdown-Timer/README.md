@@ -11,7 +11,7 @@ Veja o projeto de forma interativa: [VISITE](https://countdown-kev.netlify.app/)
 ## 🖥️ preview final do projeto
 
 <p align="center">
-  <img src="style/images/desktop.png" width="1598" height="962"/>
+  <img src="style/images/desktop.png" width="1012" height="609"/>
 </p>
 
 ## 📳 preview final do projeto mobile

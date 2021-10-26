@@ -11,7 +11,7 @@ Veja o projeto de forma interativa: [VISITE](https://stats-cards-kev.netlify.app
 ## 🖥️ preview final do projeto
 
 <p align="center">
-  <img src="images/desktop.png" width="1615" height="876"/>
+  <img src="images/desktop.png" width="1012" height="549"/>
 </p>
 
 ## 📳 preview final do projeto mobile
