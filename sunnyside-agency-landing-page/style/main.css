@@ -1,0 +1,317 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  background: url(../images/desktop/image-header.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+
+main header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 7vw;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main header .center {
+  display: none;
+}
+
+main .menu-mobile {
+  display: none;
+}
+
+main header .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main header .menu a {
+  color: white;
+  margin-right: 30px;
+  font-family: 'Barlow', sans-serif;
+  font-size: clamp(1rem, 1vw, 1.2rem);
+}
+
+main header .menu a:hover {
+  border-bottom: 2px solid white;
+}
+
+main header .menu .btn {
+  margin-right: 0;
+  padding: .8vw 1vw;
+  border-radius: 1.2vw;
+  background: white;
+  color: #23303e;
+  text-transform: uppercase;
+}
+
+main header .menu .btn:hover {
+  border: none;
+  color: white;
+  background: rgba(196, 218, 231, 0.4);
+}
+
+main h1 {
+  text-align: center;
+  color: white;
+  font-family: 'Fraunces', serif;
+  font-size: 48px;
+  text-transform: uppercase;
+  margin-bottom: 8vw;
+}
+
+main .arrow {
+  margin-left: 50%;
+}
+
+main .arrow img {
+  height: 8vw;
+  width: 2.5vw;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 500px;
+}
+
+section .wrapper {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section .wrapper .box {
+  height: 100%;
+  width: 50%;
+}
+
+section .wrapper .box img {
+  height: 100%;
+  width: 100%;
+}
+
+section .wrapper .box div {
+  width: 60%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 20%;
+}
+
+section .wrapper .box div h1 {
+  font-size: 42px;
+  font-family: 'Fraunces', serif;
+  margin-bottom: 30px;
+  color: #23303e;
+}
+
+section .wrapper .box div p {
+  margin-bottom: 30px;
+  font-size: 18px;
+  color: #5a636c;
+}
+
+section .wrapper .box div a {
+  font-size: 18px;
+  color: #23303e;
+  font-weight: 900;
+  text-transform: uppercase;
+  border-bottom: 2px solid #fad400;
+  width: 130px;
+}
+
+section .wrapper .box-cherry {
+  background: url(../images/desktop/image-graphic-design.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+
+section .wrapper .box-cherry div {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: 19% 0% 0% 25%;
+  width: 57%;
+}
+
+section .wrapper .box-cherry div h1 {
+  color: #25564b;
+}
+
+section .wrapper .box-cherry div p {
+  color: #458c7e;
+}
+
+section .wrapper .box-tangerine {
+  background: url(../images/desktop/image-photography.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+
+section .wrapper .box-tangerine div {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: 19% 0% 0% 25%;
+  width: 57%;
+}
+
+section .wrapper .box-tangerine div h1 {
+  color: #23303e;
+}
+
+section .wrapper .box-tangerine div p {
+  color: #19536b;
+}
+
+@media screen and (max-width: 1000px) {
+  main header {
+    margin-bottom: 150px;
+  }
+  main header .menu {
+    display: none;
+  }
+  main header .center {
+    display: block;
+    top: 5%;
+    left: 90%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    position: absolute;
+    width: 50px;
+  }
+  main header .center::before, main header .center::after,
+  main header .center div {
+    background: #fff;
+    content: "";
+    display: block;
+    height: 5px;
+    border-radius: 3px;
+    margin: 7px 0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  main header .active::before {
+    -webkit-transform: translateY(12px) rotate(135deg);
+            transform: translateY(12px) rotate(135deg);
+  }
+  main header .active::after {
+    -webkit-transform: translateY(-12px) rotate(-135deg);
+            transform: translateY(-12px) rotate(-135deg);
+  }
+  main header .active div {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  main h1 {
+    margin-bottom: 11vw;
+  }
+  main .arrow img {
+    height: 85px;
+    width: 35px;
+  }
+  main .menu-mobile {
+    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 300px;
+    height: 300px;
+    background: white;
+    position: absolute;
+    top: 12%;
+    right: 10%;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  main .menu-mobile a {
+    color: #5a636c;
+    margin-bottom: 30px;
+    font-family: 'Barlow', sans-serif;
+  }
+  main .menu-mobile .btn-mobile {
+    margin-bottom: 0;
+    padding: 10px 20px;
+    border-radius: 15px;
+    background: #fad400;
+    color: #23303e;
+    text-transform: uppercase;
+  }
+  main .animate__slideInDown {
+    -webkit-transition: 2s;
+    transition: 2s;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  main .animate__slideOutUp {
+    top: -50%;
+    -webkit-transition: 3s;
+    transition: 3s;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+}
+
+@media screen and (max-width: 415px) {
+  main {
+    background: url(../images/mobile/image-header.jpg) no-repeat;
+    background-size: 100%;
+  }
+  main header {
+    margin-bottom: 80px;
+  }
+  main h1 {
+    font-size: 42px;
+  }
+  main .arrow img {
+    height: 70px;
+    width: 30px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

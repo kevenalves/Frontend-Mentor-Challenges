@@ -1,0 +1,51 @@
+@media screen and (max-width: 1000px) {
+  main header .menu {
+    display: none;
+  }
+  main header .center {
+    display: block;
+    top: 5%;
+    left: 90%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    position: absolute;
+    width: 50px;
+  }
+  main header .center::before, main header .center::after,
+  main header .center div {
+    background: #fff;
+    content: "";
+    display: block;
+    height: 5px;
+    border-radius: 3px;
+    margin: 7px 0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  main header .active::before {
+    -webkit-transform: translateY(12px) rotate(135deg);
+            transform: translateY(12px) rotate(135deg);
+  }
+  main header .active::after {
+    -webkit-transform: translateY(-12px) rotate(-135deg);
+            transform: translateY(-12px) rotate(-135deg);
+  }
+  main header .active div {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  main .menu-mobile {
+    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
