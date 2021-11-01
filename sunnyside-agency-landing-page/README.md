@@ -5,16 +5,17 @@
 </p>
 
 ## 🚀 Descrição
-Projeto em construção!
+Projeto desenvolvido utilziando HTML, SasS Css e Javascript. <br />
+Verifique o projeto de forma interativa: [Click Aqui!](https://sunnyside-kev.netlify.app/)
 
 ## 🖥️ preview final do projeto
 
-<!-- <p align="center">
-  <img src="images/desktop.png" width="1012" height="549"/>
-</p> -->
+<p align="center">
+  <img src="demo/desktop.png" width="1012" height="2342"/>
+</p>
 
 ## 📳 preview final do projeto mobile
 
-<!-- <p align="center">
-  <img src="images/mobile.png" width="375" height="949"/>
-</p> -->
+<p align="center">
+  <img src="demo/mobile.png" width="414" height="5989"/>
+</p>
