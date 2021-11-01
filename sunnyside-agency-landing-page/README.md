@@ -17,5 +17,5 @@ Verifique o projeto de forma interativa: [Click Aqui!](https://sunnyside-kev.net
 ## 📳 preview final do projeto mobile
 
 <p align="center">
-  <img src="demo/mobile.png" width="414" height="5989"/>
+  <img src="demo/mobile.png" width="200" height="5989"/>
 </p>
