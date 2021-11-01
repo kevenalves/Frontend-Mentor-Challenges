@@ -13,3 +13,4 @@ Repositório criado com o objetivo de compartilhar todas as soluções que desen
   - [Stats Card Component](https://github.com/kevenalves/Frontend-Mentor-Challenges/tree/main/stats-card-component) - HTML, CSS-Flexbox
    - [Order Summary Card](https://github.com/kevenalves/Frontend-Mentor-Challenges/tree/main/order-summary-component) - HTML, SasS CSS
    - [Four Card Feature Section](https://github.com/kevenalves/Frontend-Mentor-Challenges/tree/main/four-card-feature-section) - HTML, SasS CSS
+    - [Sunnyside agency landing page](https://github.com/kevenalves/Frontend-Mentor-Challenges/tree/main/sunnyside-agency-landing-page) - HTML, SasS CSS, JS
