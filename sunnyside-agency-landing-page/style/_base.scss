@@ -33,6 +33,10 @@ $White: hsl(0, 0%, 100%);
     text-decoration: none;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 main{
     width: 100vw;
     height: 100vh;
@@ -103,17 +107,20 @@ main {
     .arrow{
         margin-left: 50%;
 
-        img{
-            height: 8vw;
-            width: 2.5vw;
+        svg{
+            transition: 0.3s;
+            stroke: #FFF;
+
+            &:hover{
+                stroke: $SoftRed;
+            }
         }
     }
 }
 
 section{
-    display: flex;
     width: 100vw;
-    height: 500px;
+    height: 500px; 
 
     .wrapper{
         width: 100%;
@@ -156,6 +163,20 @@ section{
                     text-transform: uppercase;
                     border-bottom: 2px solid $Yellow;
                     width: 130px;
+
+                    &:hover{
+                        border-bottom: 2px solid $VeryDarkDesaturatedBlue;
+                        color: $Yellow;
+                    }
+                }
+
+                .link-orange{
+                    border-bottom: solid 2px $SoftRed;
+
+                    &:hover{
+                        // border-bottom: 2px solid $VeryDarkDesaturatedBlue;
+                        color: $SoftRed;
+                    }
                 }
             }
         }
@@ -194,7 +215,136 @@ section{
             }
         }
 
+    } 
+}
+
+#testimonials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 800px;
+
+    h2{
+        font-size: 28px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        text-transform: uppercase;
+        color: $DarkGrayishBlue;
+        letter-spacing: 6px;
+        font-family: 'Barlow', sans-serif;
     }
 
-    
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+        width: 80%;
+
+        .card{
+            // background: red;
+            height: 100%;
+            width: 33%;
+            display: flex;
+            flex-direction: column;
+
+            img{
+                border-radius: 50%;
+                margin-bottom: 50px;
+            }
+
+            p{
+                font-size: 18px;
+                width: 90%;
+                font-family: 'Barlow', sans-serif;
+                color: $DarkGrayishBlue;
+                margin-bottom: 50px;
+            }
+
+            h3{
+                font-family: 'Fraunces', serif;
+                font-weight: 700;
+                color: $VeryDarkDesaturatedBlue;
+                margin-bottom: 8px;
+            }
+
+            h4{
+                font-family: 'Barlow', sans-serif;
+                color: $GrayishBlue;
+            }
+        }
+    }
+}
+
+#four-images{
+        display: flex;
+
+        .card-image{
+            display: flex;
+            width: 50%;
+            height: 100%;
+
+          div{
+              width: 50%;
+              height: 100%;
+
+              img{
+                  width: 100%;
+                  height: 100%;
+                  
+              }
+          }
+        }
+
+}
+
+#footer{
+    background: hsl(168, 60%, 71%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2{
+        font-family: 'Fraunces', serif;
+        font-size: 36px;
+        font-weight: 900;
+        color: $DarkDesaturatedCyan;
+        margin-bottom: 50px;
+    }
+
+    .info-footer{
+        width: 280px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 80px;
+        a{
+            font-size: 18px;
+            color: $DarkModerateCyan;
+            font-family: 'Barlow', sans-serif;
+
+            &:hover{
+                border-bottom: 2px solid $DarkDesaturatedCyan;
+                letter-spacing: 1.5px;
+                transition: 0.2s;
+            }
+            
+        }
+    }
+
+    .social{
+        display: flex;
+        width: 150px;
+        justify-content: space-between;
+        a{
+            svg{
+                fill: #2C7566;
+
+                &:hover{
+                    fill: #0b463a;
+                }
+            }
+        }
+    }
 }
