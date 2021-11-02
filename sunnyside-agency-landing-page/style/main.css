@@ -26,7 +26,7 @@ main header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 7vw;
+  margin-bottom: 8vw;
   width: 100%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -52,7 +52,7 @@ main header .menu {
 
 main header .menu a {
   color: white;
-  margin-right: 30px;
+  margin-right: 40px;
   font-family: 'Barlow', sans-serif;
   font-size: clamp(1rem, 1vw, 1.2rem);
 }
@@ -62,7 +62,6 @@ main header .menu a:hover {
 }
 
 main header .menu .btn {
-  margin-right: 0;
   padding: .8vw 1vw;
   border-radius: 1.2vw;
   background: white;
@@ -80,7 +79,7 @@ main h1 {
   text-align: center;
   color: white;
   font-family: 'Fraunces', serif;
-  font-size: 48px;
+  font-size: 68px;
   text-transform: uppercase;
   margin-bottom: 8vw;
 }
@@ -279,6 +278,8 @@ section .wrapper .box-tangerine div p {
 }
 
 #testimonials div .card img {
+  width: 144px;
+  height: 144px;
   border-radius: 50%;
   margin-bottom: 50px;
 }
@@ -393,7 +394,7 @@ section .wrapper .box-tangerine div p {
   fill: #0b463a;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1025px) {
   main header {
     margin-bottom: 150px;
   }
@@ -432,8 +433,13 @@ section .wrapper .box-tangerine div p {
     -webkit-transform: scale(0);
             transform: scale(0);
   }
+  main {
+    height: 85vh;
+    background-size: 100% 100%;
+  }
   main h1 {
     margin-bottom: 11vw;
+    font-size: 58px;
   }
   main .arrow img {
     height: 85px;
@@ -574,10 +580,10 @@ section .wrapper .box-tangerine div p {
     background-size: 100% 100%;
   }
   main header {
-    margin-bottom: 80px;
+    margin-bottom: 70px;
   }
   main h1 {
-    font-size: 42px;
+    font-size: 48px;
   }
   main .arrow img {
     height: 70px;

@@ -20,7 +20,7 @@ main{
         display: flex;
         padding: 30px;
         align-items: center;
-        margin-bottom: 7vw;
+        margin-bottom: 8vw;
         width: 100%;
         justify-content: space-between;
 
@@ -40,7 +40,7 @@ main header .menu{
     
     a{
         color: $White;
-        margin-right: 30px;
+        margin-right: 40px;
         @include font-text;
         font-size: clamp(1rem, 1vw, 1.2rem);
 
@@ -50,7 +50,7 @@ main header .menu{
     }
 
     .btn{
-        margin-right: 0;
+        // margin-right: 0;
         padding: .8vw 1vw;
         border-radius: 1.2vw;
         background: $White;
@@ -72,7 +72,7 @@ main {
         text-align: center;
         color: $White;
         @include font-title;
-        font-size: 48px;
+        font-size: 68px;
         text-transform: uppercase;
         margin-bottom: 8vw;
     }
@@ -216,6 +216,8 @@ section{
             flex-direction: column;
 
             img{
+                width: 144px;
+                height: 144px;
                 border-radius: 50%;
                 margin-bottom: 50px;
             }

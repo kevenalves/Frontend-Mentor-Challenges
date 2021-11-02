@@ -1,4 +1,4 @@
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1025px){
  
     main header{
 
@@ -46,9 +46,12 @@
     }
 
     main{
+            height: 85vh;
+            background-size: 100% 100%;
 
         h1{
             margin-bottom: 11vw;
+            font-size: 58px;
         }
 
         .arrow{
@@ -206,11 +209,11 @@
         background-size: 100% 100%;
 
         header{
-            margin-bottom: 80px;
+            margin-bottom: 70px;
         }
 
         h1{
-            font-size: 42px ;
+            font-size: 48px ;
         }
 
         .arrow{
