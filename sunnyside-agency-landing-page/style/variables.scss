@@ -1,0 +1,40 @@
+// ### Primary
+$SoftRed: hsl(7, 99%, 70%);
+$Yellow: hsl(51, 100%, 49%);
+$DarkDesaturatedCyan: hsl(167, 40%, 24%);
+$DarkBlue: hsl(198, 62%, 26%);
+$DarkModerateCyan: hsl(168, 34%, 41%);
+
+// ### Neutral
+$VeryDarkDesaturatedBlue: hsl(212, 27%, 19%);
+$VeryDarkGrayishBlue: hsl(213, 9%, 39%);
+$DarkGrayishBlue: hsl(232, 10%, 55%);
+$GrayishBlue: hsl(210, 4%, 67%);
+$White: hsl(0, 0%, 100%);
+
+//fonts
+@mixin font-title { 
+    font-family: 'Fraunces', serif;
+}
+
+@mixin font-text {
+    font-family: 'Barlow', sans-serif;
+}
+
+// Posicionamento dos dois box diferente.
+//tangerine e cherry
+@mixin positionBox {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 19% 0% 0% 25%;
+    width: 57%;
+}
+
+//Posicionamento geral no centro
+@mixin centralizar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

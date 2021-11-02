@@ -60,10 +60,7 @@
 
         .menu-mobile{
             display: block;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            @include centralizar;
             width: 300px;
             height: 300px;
             background: $White;
@@ -87,7 +84,7 @@
             a{
                 color: $VeryDarkGrayishBlue;
                 margin-bottom: 30px;
-                font-family: 'Barlow', sans-serif;
+                @include font-text;
             }
             
             .btn-mobile{
@@ -151,7 +148,7 @@
             font-size: 18px;
             letter-spacing: 3px;
             margin-bottom: 15px;
-            font-family: 'Fraunces', serif;
+            @include font-title;
             font-weight: 700;
             color: $GrayishBlue;
         }
@@ -206,7 +203,7 @@
     main {
         height: 80vh;
         background: url(../images/mobile/image-header.jpg) no-repeat;
-        background-size: 100%;
+        background-size: 100% 100%;
 
         header{
             margin-bottom: 80px;

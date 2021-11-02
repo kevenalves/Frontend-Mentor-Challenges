@@ -8,6 +8,7 @@
 
 body {
   overflow-x: hidden;
+  font-size: 18px;
 }
 
 main {
@@ -143,12 +144,10 @@ section .wrapper .box div h1 {
 
 section .wrapper .box div p {
   margin-bottom: 30px;
-  font-size: 18px;
   color: #5a636c;
 }
 
 section .wrapper .box div a {
-  font-size: 18px;
   color: #23303e;
   font-weight: 900;
   text-transform: uppercase;
@@ -227,6 +226,9 @@ section .wrapper .box-tangerine div p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -248,12 +250,18 @@ section .wrapper .box-tangerine div p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-direction: row;
+      flex-direction: row;
   height: 500px;
   width: 80%;
 }
@@ -276,7 +284,6 @@ section .wrapper .box-tangerine div p {
 }
 
 #testimonials div .card p {
-  font-size: 18px;
   width: 90%;
   font-family: 'Barlow', sans-serif;
   color: #818498;
@@ -356,13 +363,13 @@ section .wrapper .box-tangerine div p {
 }
 
 #footer .info-footer a {
-  font-size: 18px;
   color: #458c7e;
   font-family: 'Barlow', sans-serif;
+  border-bottom: 2px solid transparent;
 }
 
 #footer .info-footer a:hover {
-  border-bottom: 2px solid #25564b;
+  border-bottom-color: #25564b;
   letter-spacing: 1.5px;
   -webkit-transition: 0.2s;
   transition: 0.2s;
@@ -564,7 +571,7 @@ section .wrapper .box-tangerine div p {
   main {
     height: 80vh;
     background: url(../images/mobile/image-header.jpg) no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
   }
   main header {
     margin-bottom: 80px;
