@@ -82,6 +82,7 @@ main h1 {
   font-size: 68px;
   text-transform: uppercase;
   margin-bottom: 8vw;
+  letter-spacing: 5px;
 }
 
 main .arrow {
@@ -392,6 +393,8 @@ section .wrapper .box-tangerine div p {
 
 #footer .social a svg:hover {
   fill: #0b463a;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 @media screen and (max-width: 1025px) {

@@ -75,6 +75,7 @@ main {
         font-size: 68px;
         text-transform: uppercase;
         margin-bottom: 8vw;
+        letter-spacing: 5px;
     }
 
     .arrow{
@@ -307,6 +308,7 @@ section{
 
                 &:hover{
                     fill: #0b463a;
+                    transform: scale(1.2);
                 }
             }
         }
