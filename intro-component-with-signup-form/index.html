@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Form Sign Up - challenge FrontEnd Mentor">
+  <meta name="keywords" content="challenge frontend, Javascript, html, css, form validation,">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="style/main.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/f28986d3e5.js" crossorigin="anonymous"></script>
+
+  <title>Intro component with sign up form</title>
+
+</head>
+
+<body>
+
+  <div class="sucessForm">
+    <div>
+      <i class="fas fa-thumbs-up"></i>
+      <h3>Congratulations!</h3>
+      <p>Check your email for more information.</p>
+      <a href="./index.html">Confirmar</a>
+    </div>
+  </div>
+
+  <main>
+
+    <div class="header">
+      <h1>
+        Learn to code by watching others
+      </h1>
+
+      <h3>
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+        but understanding how developers think is invaluable.
+      </h3>
+    </div>
+
+    <div>
+      <div class="promo">
+        <p>
+          <span>Try it free 7 days</span> then $20/mo. thereafter
+        </p>
+      </div>
+
+      <form id="form" class="form">
+        <div class="form-control">
+          <input type="text" placeholder="First Name" id="firstName" onchange="checkFirstName()" />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+
+        <div class="form-control">
+          <input type="text" placeholder="Last Name" id="lastName" onchange="checkLastName()" />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+
+        <div class="form-control">
+          <input type="email" placeholder="Email" id="email" onchange="checkEmail()" />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+
+        <div class="form-control">
+          <input type="password" placeholder="Password" id="password" onchange="checkPassword()" />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+
+        <div class="form-control">
+          <input type="password" placeholder="Confirm Password" id="password2" onchange="checkPassword2()" />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+
+        <button> Claim your free trial </button>
+
+        <p>
+          By clicking the button, you are agreeing to our <span>Terms and Services</span>
+        </p>
+
+      </form>
+    </div>
+
+    </div>
+
+  </main>
+
+
+  <script src="js/app.js"></script>
+</body>
+
+</html>

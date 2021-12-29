@@ -1,0 +1,360 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 87.5%;
+}
+
+body, input, textarea, button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+  font-weight: 600;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  background-color: #ff7a7a;
+  background-image: url(../images/bg-intro-mobile.png);
+}
+
+.header {
+  padding: 20px 40px;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.header h1 {
+  margin: 5rem 0 1rem 0;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #eee;
+}
+
+.header h3 {
+  font-size: .9rem;
+  color: #dfdfdf;
+}
+
+.promo {
+  background-color: #6055a5;
+  color: #b9b6d3;
+  width: 75%;
+  margin: 0 auto;
+  border-radius: .8rem;
+  -webkit-box-shadow: 0px 8px 2px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.promo span {
+  color: #eee;
+  font-weight: 600;
+}
+
+.promo p {
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 1.5rem;
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.form {
+  padding: 30px 40px;
+  background-color: white;
+  width: 90%;
+  margin: 2rem auto 5rem;
+  border-radius: 1rem;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.form-control input {
+  border: 2px solid #e0e0e0;
+  border-radius: 5px;
+  display: block;
+  font-family: inherit;
+  font-size: 14px;
+  padding: 10px;
+  width: 100%;
+}
+
+.form-control input::-webkit-input-placeholder {
+  font-weight: 600;
+  color: #a09e9e;
+  font-size: .9rem;
+}
+
+.form-control input:-ms-input-placeholder {
+  font-weight: 600;
+  color: #a09e9e;
+  font-size: .9rem;
+}
+
+.form-control input::-ms-input-placeholder {
+  font-weight: 600;
+  color: #a09e9e;
+  font-size: .9rem;
+}
+
+.form-control input::placeholder {
+  font-weight: 600;
+  color: #a09e9e;
+  font-size: .9rem;
+}
+
+.form-control input:focus {
+  outline: 0;
+  border-color: #777;
+}
+
+.form-control.success input {
+  border-color: #2ecc71;
+}
+
+.form-control.error input {
+  border-color: #e74c3c;
+}
+
+.form-control i {
+  visibility: hidden;
+  position: absolute;
+  top: 1rem;
+  right: 10px;
+}
+
+.form-control.success i.fa-check-circle {
+  color: #2ecc71;
+  visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle {
+  color: #e74c3c;
+  visibility: visible;
+}
+
+.form-control small {
+  color: #e74c3c;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+.form-control.error small {
+  visibility: visible;
+}
+
+.form button {
+  background-color: #38cc8c;
+  border: 2px solid #38cc8c;
+  border-radius: 6px;
+  color: #fff;
+  display: block;
+  font-family: inherit;
+  font-size: .9rem;
+  letter-spacing: 2px;
+  padding: 1rem;
+  margin-top: 20px;
+  margin-bottom: 1rem;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.form button:hover {
+  -webkit-filter: brightness(0.9);
+          filter: brightness(0.9);
+}
+
+.form p {
+  color: #b9b6d3;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  font-size: .8rem;
+}
+
+.form p span {
+  color: #ff7a7a;
+  font-weight: 600;
+}
+
+.sucessForm {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 2;
+  visibility: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sucessForm div {
+  background: white;
+  padding: 1.5rem;
+  border-radius: .8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sucessForm div i {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  color: #ff7a7a;
+}
+
+.sucessForm div h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+
+.sucessForm div p {
+  color: #5e5c60;
+}
+
+.sucessForm div a {
+  text-decoration: none;
+  background: #ff7a7a;
+  color: white;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+  border-radius: .5rem;
+}
+
+.sucessForm div a:hover {
+  -webkit-filter: brightness(0.9);
+          filter: brightness(0.9);
+}
+
+.active {
+  visibility: visible;
+}
+
+@media screen and (min-width: 720px) {
+  main {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .header h1 {
+    font-size: 2.5rem;
+  }
+  .header h3 {
+    font-size: 1.2rem;
+  }
+  .promo p {
+    font-size: 1.2rem;
+    width: 60%;
+  }
+  .form p {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  main {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    background-image: url(../images/bg-intro-desktop.png);
+  }
+  main {
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+  }
+  .header {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: left;
+  }
+  .header h1 {
+    font-size: 2.7rem;
+  }
+  .header h3 {
+    font-size: 1.3rem;
+  }
+  .promo {
+    margin: 5rem auto 0;
+  }
+  .promo p {
+    font-size: 1rem;
+    width: 100%;
+  }
+  .form {
+    margin: 1.5rem auto 5rem;
+  }
+}
+
+@media screen and (min-width: 1210px) {
+  main {
+    max-width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+  }
+  .header {
+    width: 40%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
