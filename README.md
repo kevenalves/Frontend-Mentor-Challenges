@@ -11,6 +11,7 @@ Repositório criado com o objetivo de compartilhar todas as soluções que desen
 Veja abaixo os desafios organizados por tecnologia:
 <br/>
 
+<!-- Sessão CSS  -->
 ![HTML](https://img.shields.io/badge/-HTML-05122A?style=flat&logo=html5)&nbsp;
 ![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=css3)&nbsp;
 <br/>
@@ -27,7 +28,7 @@ Veja abaixo os desafios organizados por tecnologia:
   - [Four Card Feature Section](https://github.com/kevenalves/Frontend-Mentor-Challenges/tree/main/four-card-feature-section)
 <br/><br/> 
 
-<!--- Sessão SasS -->
+<!--- Sessão Javascript -->
 ![HTML](https://img.shields.io/badge/-HTML-05122A?style=flat&logo=html5)&nbsp;
 ![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=css3)&nbsp;
 ![SasS](https://img.shields.io/badge/-SasS-05122A?style=flat&logo=SasS)&nbsp;
@@ -35,4 +36,5 @@ Veja abaixo os desafios organizados por tecnologia:
  <br/>
   - [Countdown Timer](https://github.com/kevenalves/Frontend-Mentor-Challenges/tree/main/countdown-Timer)
   - [Sunnyside agency landing page](https://github.com/kevenalves/Frontend-Mentor-Challenges/tree/main/sunnyside-agency-landing-page)
+  - [SignUp Form Validation](https://github.com/kevenalves/Frontend-Mentor-Challenges/tree/main/intro-component-with-signup-form)
 <br/><br/>
