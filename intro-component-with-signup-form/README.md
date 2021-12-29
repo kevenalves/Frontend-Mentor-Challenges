@@ -5,10 +5,9 @@
 </p>
 
 ## 🚀 Descrição
-Desafio Sign Up form validation do Site Frontend Mentor.
-Projeto feito utilizando conceitos de Mobile First.
-Este projeto é puramente FrontEnd e não está integrado com uma Api.
-</br>
+Desafio Sign Up form validation do Site Frontend Mentor.</br>
+Projeto feito utilizando conceitos de Mobile First.</br>
+Este projeto é puramente FrontEnd e não está integrado com uma Api.</br>
 
 Veja o projeto: [SignUp form](https://signup-keven.netlify.app/index.html)
 </br></br>
