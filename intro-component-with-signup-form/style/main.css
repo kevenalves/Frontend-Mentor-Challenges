@@ -86,7 +86,7 @@ body {
 }
 
 .form-control input {
-  border: 2px solid #e0e0e0;
+  border: 2px solid #cccbcb;
   border-radius: 5px;
   display: block;
   font-family: inherit;
@@ -97,25 +97,25 @@ body {
 
 .form-control input::-webkit-input-placeholder {
   font-weight: 600;
-  color: #a09e9e;
+  color: #7e7b7b;
   font-size: .9rem;
 }
 
 .form-control input:-ms-input-placeholder {
   font-weight: 600;
-  color: #a09e9e;
+  color: #7e7b7b;
   font-size: .9rem;
 }
 
 .form-control input::-ms-input-placeholder {
   font-weight: 600;
-  color: #a09e9e;
+  color: #7e7b7b;
   font-size: .9rem;
 }
 
 .form-control input::placeholder {
   font-weight: 600;
-  color: #a09e9e;
+  color: #7e7b7b;
   font-size: .9rem;
 }
 
